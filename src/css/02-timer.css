@@ -1,0 +1,41 @@
+body {
+  background: rgb(238, 174, 202);
+  background: radial-gradient(
+    circle,
+    rgba(238, 174, 202, 1) 0%,
+    rgba(148, 187, 233, 1) 100%
+  );
+
+  font-size: 24px;
+}
+.wrap {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 100vh;
+}
+#datetime-picker {
+  padding: 10px 20px;
+  font-size: 18px;
+
+  border-radius: 10px;
+  margin-right: 15px;
+}
+button[data-start] {
+  padding: 10px 20px;
+  font-size: 18px;
+  border-radius: 10px;
+}
+
+.timer {
+  display: flex;
+  gap: 20px;
+}
+
+.field {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
