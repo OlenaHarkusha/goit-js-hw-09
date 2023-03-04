@@ -16,3 +16,26 @@ img {
   display: block;
   max-width: 100%;
 }
+
+.btn-wrap {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.switcher-btn {
+  width: 200px;
+  padding: 20px;
+
+  font-size: 40px;
+
+  background-color: #e4e4e4;
+  border: 2px solid rgb(97, 97, 97);
+  border-radius: 20px;
+}
+
+.switcher-btn:hover {
+  background-color: #fffefe;
+}
